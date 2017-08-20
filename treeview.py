@@ -9,10 +9,6 @@ label.pack()
 treeview = ttk.Treeview(root)
 treeview.pack()
 
-
-
-
-
 treeview.insert('', '0', 'item1', text='First Item')
 treeview.insert('', '1', 'item2', text='Second Item')
 treeview.insert('', 'end', 'item3', text='Third Item')
